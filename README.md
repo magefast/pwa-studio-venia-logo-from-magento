@@ -4,11 +4,11 @@ Get Logo form Magento settings.
 
 Replace default Venia logo.
 
-### Install
+### How to use
 
 - git clone to `packages/{YOUR_PACKAGE_NAME}/src`
 
-- add override for components 
+- add override for components - add to package plugin https://github.com/LucasCalazans/override-mapping-webpack-plugin
 
 - create override file `packages/{YOUR_PACKAGE_NAME}/src/override/@magento/venia-ui/lib/components/Logo/logo.js`
 
