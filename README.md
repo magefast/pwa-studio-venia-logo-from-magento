@@ -16,7 +16,7 @@ Replace default Venia logo.
 - add to `packages/{YOUR_PACKAGE_NAME}/src/override/@magento/venia-ui/lib/components/Logo/logo.js` following code
 
 <pre>
-import Logo from 'src/pwa-studio-logo-from-magento/logo';
+import Logo from 'src/pwa-studio-venia-logo-from-magento/logo';
 export default Logo;
 </pre>
 
