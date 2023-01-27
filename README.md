@@ -1,0 +1,22 @@
+# pwa-studio-venia-logo-from-magento
+
+Get Logo form Magento settings.
+
+Replace default Venia logo.
+
+### Install
+
+- git clone to `packages/{YOUR_PACKAGE_NAME}/src`
+
+- add override for components 
+
+- create override file `packages/{YOUR_PACKAGE_NAME}/src/override/@magento/venia-ui/lib/components/Logo/logo.js`
+
+
+- add to `packages/{YOUR_PACKAGE_NAME}/src/override/@magento/venia-ui/lib/components/Logo/logo.js` following code
+
+<pre>
+import Logo from 'src/pwa-studio-logo-from-magento/logo';
+export default Logo;
+</pre>
+
